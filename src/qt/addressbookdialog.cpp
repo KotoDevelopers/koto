@@ -62,10 +62,10 @@ AddressBookDialog::AddressBookDialog(const PlatformStyle *platformStyle, Mode mo
     switch(tab)
     {
     case SendingTab:
-        ui->labelExplanation->setText(tr("These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins."));
+        ui->labelExplanation->setText(tr("These are your Koto addresses for sending payments. Always check the amount and the receiving address before sending coins."));
         break;
     case ReceivingTab:
-        ui->labelExplanation->setText(tr("These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction."));
+        ui->labelExplanation->setText(tr("These are your Koto addresses for receiving payments. It is recommended to use a new receiving address for each transaction."));
         break;
     }
 

@@ -9,11 +9,11 @@
     </message>
     <message>
         <source>New &amp;Transparent Address</source>
-        <translation type="unfinished"></translation>
+        <translation>新規公開アドレスの生成 (&amp;T)</translation>
     </message>
     <message>
         <source>New &amp;Private Address</source>
-        <translation type="unfinished"></translation>
+        <translation>新規プライベートアドレスの生成 (&amp;P)</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -29,19 +29,19 @@
     </message>
     <message>
         <source>Sending z-addresses</source>
-        <translation type="unfinished"></translation>
+        <translation>zアドレスで送信</translation>
     </message>
     <message>
         <source>Receiving z-addresses</source>
-        <translation type="unfinished"></translation>
+        <translation>zアドレスで受信</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished"></translation>
+        <source>These are your Koto addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>これらは、支払いをするためのKotoアドレスです。コインを送る前に必ず金額と送信先アドレスを確認してください。</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation type="unfinished"></translation>
+        <source>These are your Koto addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>これらは、支払いを受け取るためのあなたのKotoアドレスです。各トランザクションに新しい受信アドレスを使用することをお勧めします。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -124,27 +124,27 @@
     </message>
     <message>
         <source>My Receiving Addresses</source>
-        <translation type="unfinished"></translation>
+        <translation>マイ受信アドレス</translation>
     </message>
     <message>
         <source>These are your Koto private addresses for shielding coins.</source>
-        <translation type="unfinished"></translation>
+        <translation>コインを保護するためのKotoのプライベートアドレスです。</translation>
     </message>
     <message>
         <source>New &amp;Private Address</source>
-        <translation type="unfinished"></translation>
+        <translation>新規プライベートアドレスの作成 (&amp;P)</translation>
     </message>
     <message>
         <source>These are your transparent addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation type="unfinished"></translation>
+        <translation>これらは、支払いを受け取るためのあなたの公開されたアドレスです。各トランザクションに新しい受信アドレスを使用することをお勧めします。</translation>
     </message>
     <message>
         <source>New &amp;Transparent Address</source>
-        <translation type="unfinished"></translation>
+        <translation>新規公開アドレスの作成 (&amp;T)</translation>
     </message>
     <message>
         <source>Sending Addresses</source>
-        <translation type="unfinished"></translation>
+        <translation>送信アドレス</translation>
     </message>
 </context>
 <context>
@@ -574,43 +574,43 @@
     </message>
     <message>
         <source>&amp;Address Book</source>
-        <translation type="unfinished"></translation>
+        <translation>アドレスブック (&amp;A)</translation>
     </message>
     <message>
         <source>View and manage the Koto address book</source>
-        <translation type="unfinished"></translation>
+        <translation>Kotoアドレスブックの表示と管理が出来ます</translation>
     </message>
     <message>
         <source>&amp;Transparent Payment</source>
-        <translation type="unfinished"></translation>
+        <translation>公開送金 (&amp;T)</translation>
     </message>
     <message>
         <source>Send coins to a Koto address using transparent transactions</source>
-        <translation type="unfinished"></translation>
+        <translation>公開されたトランザクションを使用してKotoアドレスにコインを送る</translation>
     </message>
     <message>
         <source>&amp;Private Payment</source>
-        <translation type="unfinished"></translation>
+        <translation>プライベート送金 (&amp;P)</translation>
     </message>
     <message>
         <source>Send coins to a Koto address using private transacions</source>
-        <translation type="unfinished"></translation>
+        <translation>プライベートなトランザクションを使用してKotoアドレスにコインを送る</translation>
     </message>
     <message>
         <source>&amp;Unspent</source>
-        <translation type="unfinished"></translation>
+        <translation>未使用分 (&amp;U)</translation>
     </message>
     <message>
         <source>List unspent from transactions</source>
-        <translation type="unfinished"></translation>
+        <translation>トランザクションの未使用分の一覧を表示する</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
-        <translation type="unfinished"></translation>
+        <translation>ディスクからブロックをインポートしています...</translation>
     </message>
     <message>
         <source>A fatal error occurred. Koto can no longer continue safely and will quit.</source>
-        <translation type="unfinished"></translation>
+        <translation>致命的なエラーが発生しました。Kotoは安全に継続できないため、終了します。</translation>
     </message>
 </context>
 <context>
@@ -749,15 +749,15 @@
     </message>
     <message>
         <source>higher</source>
-        <translation>非常に高</translation>
+        <translation>非常に高い</translation>
     </message>
     <message>
         <source>high</source>
-        <translation>高</translation>
+        <translation>高い</translation>
     </message>
     <message>
         <source>medium-high</source>
-        <translation>中〜高</translation>
+        <translation>中～高</translation>
     </message>
     <message>
         <source>medium</source>
@@ -765,15 +765,15 @@
     </message>
     <message>
         <source>low-medium</source>
-        <translation>低〜中</translation>
+        <translation>低～中</translation>
     </message>
     <message>
         <source>low</source>
-        <translation>低</translation>
+        <translation>低い</translation>
     </message>
     <message>
         <source>lower</source>
-        <translation>非常に低</translation>
+        <translation>非常に低い</translation>
     </message>
     <message>
         <source>lowest</source>
@@ -848,7 +848,7 @@
     </message>
     <message>
         <source>CoinSelection transactions list</source>
-        <translation type="unfinished"></translation>
+        <translation>コインセレクショントランザクションリスト</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -856,7 +856,7 @@
     </message>
     <message>
         <source>Copy &amp;Amount</source>
-        <translation type="unfinished"></translation>
+        <translation>残高をコピー (&amp;A)</translation>
     </message>
 </context>
 <context>
@@ -921,8 +921,8 @@
         <translation>新しいキーの生成に失敗しました。</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="unfinished"></translation>
+        <source>The entered address &quot;%1&quot; is not a valid Koto address.</source>
+        <translation>入力されたアドレス &quot;%1&quot; は無効なKotoアドレスです。</translation>
     </message>
 </context>
 <context>
@@ -1297,23 +1297,23 @@
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>コインコントロールの機能を表示するかどうか。</translation>
     </message>
     <message>
         <source>Open the %1 configuration file from the working directory.</source>
-        <translation type="unfinished"></translation>
+        <translation>作業ディレクトリから %1 の設定ファイルを開きます。</translation>
     </message>
     <message>
         <source>Open Configuration File</source>
-        <translation type="unfinished"></translation>
+        <translation>設定ファイルを開く</translation>
     </message>
     <message>
         <source>Configuration options</source>
-        <translation type="unfinished"></translation>
+        <translation>設定オプション</translation>
     </message>
     <message>
         <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>設定ファイルは、GUI設定に優先する高度なユーザーオプションを指定するために使用されます。さらに、この構成ファイルは、どのコマンドラインオプションよりも優先されます。</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1321,7 +1321,7 @@
     </message>
     <message>
         <source>The configuration file could not be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>設定ファイルを開くことができませんでした。</translation>
     </message>
 </context>
 <context>
@@ -1400,39 +1400,39 @@
     </message>
     <message>
         <source>Balance details</source>
-        <translation type="unfinished"></translation>
+        <translation>残高の詳細</translation>
     </message>
     <message>
         <source>To be shielded:</source>
-        <translation type="unfinished"></translation>
+        <translation>保護中:</translation>
     </message>
     <message>
         <source>Z-Address:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zアドレス:</translation>
     </message>
     <message>
         <source>Your current T-balance</source>
-        <translation type="unfinished"></translation>
+        <translation>あなたの現在のTアドレス残高</translation>
     </message>
     <message>
         <source>Unshielded balance that must be tranfer to z-addr before could be spent</source>
-        <translation type="unfinished"></translation>
+        <translation>Zアドレスに転送しなければならない未保護残高</translation>
     </message>
     <message>
         <source>T-Address:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tアドレス:</translation>
     </message>
     <message>
         <source>Your current Z-balance</source>
-        <translation type="unfinished"></translation>
+        <translation>あなたの現在のZアドレス残高</translation>
     </message>
     <message>
         <source>Shield coinbase into z-address</source>
-        <translation type="unfinished"></translation>
+        <translation>Zアドレスの保護コインベース</translation>
     </message>
     <message>
         <source>&amp;Shield coinbase</source>
-        <translation type="unfinished"></translation>
+        <translation>保護コインベース (&amp;S)</translation>
     </message>
 </context>
 <context>
@@ -1581,26 +1581,26 @@
     </message>
     <message>
         <source>Enter a Koto address (e.g. zkrfiKJzgE1AmVXCqyf6RoR1SgyL4FxgwHiNPwJoBYiUQEMDMqwdNVxi6NE25xws3JuxbqWKHhSJ6Gp1r8MZ4osBbQy5Txw)</source>
-        <translation type="unfinished"></translation>
+        <translation>Koto アドレスを入力してください (例 zkrfiKJzgE1AmVXCqyf6RoR1SgyL4FxgwHiNPwJoBYiUQEMDMqwdNVxi6NE25xws3JuxbqWKHhSJ6Gp1r8MZ4osBbQy5Txw)</translation>
     </message>
     <message>
         <source>%1 didn&apos;t yet exit safely...</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 はまだ安全に終了していません...</translation>
     </message>
 </context>
 <context>
     <name>QObject::QObject</name>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー: 指定されたディレクトリ &quot;%1&quot; は存在しません。</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー:設定ファイル(%1)を解析できません。key=alue構文のみを使用してください。</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー: %1</translation>
     </message>
 </context>
 <context>
@@ -1906,19 +1906,19 @@
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>履歴をナビゲートするには上矢印と下矢印を使用し、画面をクリアするには %1 を使用します。</translation>
     </message>
     <message>
         <source>Type %1 for an overview of available commands.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用可能なコマンドの概要については、%1 と入力してください。</translation>
     </message>
     <message>
         <source>For more information on using this console type %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>詳細については、%1 を入力してください。</translation>
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
-        <translation type="unfinished"></translation>
+        <translation>警告: 詐欺師が活動しており、ここにコマンドを入力し、ウォレットの残高を盗むように指示しています。コマンドの影響を十分に理解していない場合は、このコンソールを使用しないでください。</translation>
     </message>
 </context>
 <context>
@@ -2094,19 +2094,19 @@
     <name>ResultsDialog</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>ダイアログ</translation>
     </message>
     <message>
         <source>Status:</source>
-        <translation type="unfinished"></translation>
+        <translation>ステータス:</translation>
     </message>
     <message>
         <source>Operation ID:</source>
-        <translation type="unfinished"></translation>
+        <translation>オペレーションID:</translation>
     </message>
     <message>
         <source>The operation was submitted in background. Please wait.</source>
-        <translation type="unfinished"></translation>
+        <translation>操作はバックグラウンドで提出されます。お待ちください。</translation>
     </message>
 </context>
 <context>
@@ -2117,7 +2117,7 @@
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation type="unfinished"></translation>
+        <translation>コインコントロール機能の特徴</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -2200,8 +2200,8 @@
         <translation>最小手数料</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation type="unfinished"></translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for koto transactions than the network can process.</source>
+        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどKotoトランザクションの需要がひとたび生まれてしまった場合、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2257,11 +2257,11 @@
     </message>
     <message>
         <source>Balance (Z+T-U):</source>
-        <translation type="unfinished"></translation>
+        <translation>残高 (Z+T-U):</translation>
     </message>
     <message>
         <source>This is the total balance available to be spent. It&apos;s calculate adding balances in private and trasparent addresses minus transaction still in the coinbase that must be shielded before using them.</source>
-        <translation type="unfinished"></translation>
+        <translation>これは、使用可能な合計残高です。プライベートと公開アドレスの残高を差し引いてコインベースのトランザクションを差し引いて計算し、それを使用する前に保護する必要があります。</translation>
     </message>
     <message>
         <source>Copy quantity</source>
@@ -2357,17 +2357,17 @@
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 の最低手数料のみを支払う</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n 個のブロック内で検証を開始すると推定されます。</numerusform>
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished"></translation>
+        <source>Warning: Invalid Koto address</source>
+        <translation>警告 : 未知のKotoアドレスです。</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2375,7 +2375,7 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation type="unfinished"></translation>
+        <translation>(ラベル無し)</translation>
     </message>
 </context>
 <context>
@@ -2504,7 +2504,7 @@
     </message>
     <message>
         <source>Custom Transaction Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>カスタムトランザクション手数料:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
@@ -2532,11 +2532,11 @@
     </message>
     <message>
         <source>Balance (Z+T-U):</source>
-        <translation type="unfinished"></translation>
+        <translation>残高 (Z+T-U):</translation>
     </message>
     <message>
         <source>This is the total balance available to be spent. It&apos;s calculate adding balances in private and trasparent addresses minus transaction still in the coinbase that must be shielded before using them.</source>
-        <translation type="unfinished"></translation>
+        <translation>これは、使用可能な合計残高です。プライベートと公開アドレスの残高を差し引いてコインベースのトランザクションを差し引いて計算し、それを使用する前に保護する必要があります。</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -2686,8 +2686,8 @@
         <translation>ラベル(&amp;L):</translation>
     </message>
     <message>
-        <source>M&amp;emo</source>
-        <translation type="unfinished"></translation>
+        <source>M&amp;emo:</source>
+        <translation>メモ(&amp;M):</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less kotos than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
@@ -2695,7 +2695,7 @@
     </message>
     <message>
         <source>S&amp;end to z-address</source>
-        <translation type="unfinished"></translation>
+        <translation>Zアドレスへ送信 (&amp;S)</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -2725,7 +2725,7 @@
     <name>ShieldCoinsDialog</name>
     <message>
         <source>Shield Coins</source>
-        <translation type="unfinished"></translation>
+        <translation>コインを保護</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2733,15 +2733,15 @@
     </message>
     <message>
         <source>Z-Address:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zアドレス:</translation>
     </message>
     <message>
         <source>Pick a private address from the address book.</source>
-        <translation type="unfinished"></translation>
+        <translation>アドレスブックからプライベートアドレスを選択します。</translation>
     </message>
     <message>
         <source>Choose new or previously used address</source>
-        <translation type="unfinished"></translation>
+        <translation>新規または以前使用したアドレスを選択する</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2753,35 +2753,35 @@
     </message>
     <message>
         <source>Use this form to shield transparent coinbase funds by sending to a shielded z-address.</source>
-        <translation type="unfinished"></translation>
+        <translation>保護されたZアドレスに送信することにより、公開されたコインベースの資金を保護するためにこのフォームを使用してください。</translation>
     </message>
     <message>
         <source>Fee</source>
-        <translation type="unfinished"></translation>
+        <translation>手数料</translation>
     </message>
     <message>
         <source>Limit</source>
-        <translation type="unfinished"></translation>
+        <translation>制限</translation>
     </message>
     <message>
         <source> utxos</source>
-        <translation type="unfinished"></translation>
+        <translation>utxo</translation>
     </message>
     <message>
         <source>Shield coins</source>
-        <translation type="unfinished"></translation>
+        <translation>コインを保護</translation>
     </message>
     <message>
         <source>Shield</source>
-        <translation type="unfinished"></translation>
+        <translation>保護</translation>
     </message>
     <message>
         <source>Cancel operation</source>
-        <translation type="unfinished"></translation>
+        <translation>操作をキャンセル</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>キャンセル</translation>
     </message>
 </context>
 <context>
@@ -3246,7 +3246,7 @@
     </message>
     <message>
         <source>Shielded coinbase</source>
-        <translation type="unfinished"></translation>
+        <translation>保護されたコインベース</translation>
     </message>
 </context>
 <context>
@@ -3401,7 +3401,7 @@
     </message>
     <message>
         <source>Shielded</source>
-        <translation type="unfinished"></translation>
+        <translation>保護済み</translation>
     </message>
 </context>
 <context>
@@ -3419,15 +3419,15 @@
     </message>
     <message>
         <source>Unspent transparent transaction list:</source>
-        <translation type="unfinished"></translation>
+        <translation>未使用の公開されたトランザクションリスト:</translation>
     </message>
     <message>
         <source>Unspent private transaction list:</source>
-        <translation type="unfinished"></translation>
+        <translation>未使用のプライベートトランザクションリスト:</translation>
     </message>
     <message>
         <source>Unspent transactions list</source>
-        <translation type="unfinished"></translation>
+        <translation>未使用のトランザクションリスト</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -3435,11 +3435,11 @@
     </message>
     <message>
         <source>Copy &amp;Transaction ID</source>
-        <translation type="unfinished"></translation>
+        <translation>トランザクションIDをコピー(&amp;T)</translation>
     </message>
     <message>
         <source>Copy &amp;Amount</source>
-        <translation type="unfinished"></translation>
+        <translation>残高をコピー(&amp;A)</translation>
     </message>
 </context>
 <context>
@@ -3450,7 +3450,7 @@
     </message>
     <message>
         <source>Txid</source>
-        <translation type="unfinished"></translation>
+        <translation>トランザクションID</translation>
     </message>
 </context>
 <context>
@@ -3557,8 +3557,8 @@
         <translation>ウォレットの全トランザクションを削除し、これらを-rescanオプションを用いることで起動時にブロックチェインのデータのみからリカバリします。</translation>
     </message>
     <message>
-        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>MITソフトウェアライセンスのもとで配布されています。付属のCOPYINGファイルまたは&lt;http://www.opensource.org/licenses/mit-license.php&gt;を参照してください。</translation>
+        <source>Distributed under the MIT software license, see the accompanying file %s or %s.</source>
+        <translation>MITソフトウェアライセンスのもとで配布されています。付属の %sファイルまたは %s を参照してください。</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -3602,8 +3602,7 @@
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>破損したブロック データベースが見つかりました
-</translation>
+        <translation>破損したブロック データベースが見つかりました</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -3678,6 +3677,10 @@
         <translation>&lt;net&gt; (ipv4, ipv6 または onion) ネットワーク内のノードだけに接続する</translation>
     </message>
     <message>
+        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
+        <translation>%s が有用だと感じられた方はぜひプロジェクトへの貢献をお願いします。ソフトウェアのより詳細な情報については %s をご覧ください。</translation>
+    </message>
+    <message>
         <source>Prune cannot be configured with a negative value.</source>
         <translation>剪定値は負の値に設定できません。</translation>
     </message>
@@ -3698,12 +3701,96 @@
         <translation>ウォレットのファイルを指定　(データ・ディレクトリの中に)</translation>
     </message>
     <message>
+        <source>The source code is available from %s.</source>
+        <translation>ソースコードは %s より入手可能です。</translation>
+    </message>
+    <message>
         <source>Verifying blocks...</source>
-        <translation>ブロックの検証中...</translation>
+        <translation>ブロックを検証中...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>ウォレットの検証中...</translation>
+        <translation>ウォレットを検証中...</translation>
+    </message>
+    <message>
+        <source>Verifying sprout-proving.key...</source>
+        <translation>sprout-proving.keyを検証中...</translation>
+    </message>
+    <message>
+        <source>Verifying sprout-verifying.key...</source>
+        <translation>sprout-verifying.keyを検証中...</translation>
+    </message>
+    <message>
+        <source>Verifying sapling-spend-testnet.params...</source>
+        <translation>sapling-spend-testnet.paramsを検証中...</translation>
+    </message>
+    <message>
+        <source>Verifying sapling-output-testnet.params...</source>
+        <translation>sapling-output-testnet.paramsを検証中...</translation>
+    </message>
+    <message>
+        <source>Verifying sprout-groth16-testnet.params...</source>
+        <translation>sprout-groth16-testnet.paramsを検証中...</translation>
+    </message>
+    <message>
+        <source>Downloading sprout-proving.key...</source>
+        <translation>sprout-proving.keyをダウンロード中...</translation>
+    </message>
+    <message>
+        <source>Downloading sprout-verifying.key...</source>
+        <translation>sprout-verifying.keyをダウンロード中...</translation>
+    </message>
+    <message>
+        <source>Downloading sapling-spend-testnet.params...</source>
+        <translation>sapling-spend-testnet.paramsをダウンロード中...</translation>
+    </message>
+    <message>
+        <source>Downloading sapling-output-testnet.params...</source>
+        <translation>sapling-output-testnet.paramsをダウンロード中...</translation>
+    </message>
+    <message>
+        <source>Downloading sprout-groth16-testnet.params...</source>
+        <translation>sprout-groth16-testnet.paramsをダウンロード中...</translation>
+    </message>
+    <message>
+        <source>Can not open sprout-proving.key!</source>
+        <translation>sprout-proving.keyを開けません!</translation>
+    </message>
+    <message>
+        <source>Can not open sprout-verifying.key!</source>
+        <translation>sprout-verifying.keyを開けません!</translation>
+    </message>
+    <message>
+        <source>Can not open sapling-spend-testnet.params!</source>
+        <translation>sapling-spend-testnet.paramsを開けません!</translation>
+    </message>
+    <message>
+        <source>Can not open sapling-output-testnet.params!</source>
+        <translation>sapling-output-testnet.paramsを開けません!</translation>
+    </message>
+    <message>
+        <source>Can not open sprout-groth16-testnet.params!</source>
+        <translation>sprout-groth16-testnet.paramsを開けません!</translation>
+    </message>
+    <message>
+        <source>Deleting corrupted file sprout-proving.key!</source>
+        <translation>破損したファイルsprout-proving.keyを削除しています!</translation>
+    </message>
+    <message>
+        <source>Deleting corrupted file sprout-verifying.key!</source>
+        <translation>破損したファイルsprout-verifying.keyを削除しています!</translation>
+    </message>
+    <message>
+        <source>Deleting corrupted file sapling-spend-testnet.params!</source>
+        <translation>破損したファイルsapling-spend-testnet.paramsを削除しています!</translation>
+    </message>
+    <message>
+        <source>Deleting corrupted file sapling-output-testnet.params!</source>
+        <translation>破損したファイルsapling-output-testnet.paramsを削除しています!</translation>
+    </message>
+    <message>
+        <source>Deleting corrupted file sprout-groth16-testnet.params!</source>
+        <translation>破損したファイルsprout-groth16-testnet.paramsを削除しています!</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
@@ -4063,503 +4150,479 @@
     </message>
     <message>
         <source>-mineraddress is not in the local wallet. Either use a local address, or set -minetolocalwallet=0</source>
-        <translation type="unfinished"></translation>
+        <translation>-mineraddress はローカルウォレットにありません。ローカルアドレスを使用するか、または -minetolocalwallet=0 を設定してください。</translation>
     </message>
     <message>
         <source>A block chain reorganization has been detected that would roll back %d blocks! This is larger than the maximum of %d blocks, and so the node is shutting down for your safety.</source>
-        <translation type="unfinished"></translation>
+        <translation>%d ブロックをロールバックするブロックチェーンの再編成が検出されました! これは最大で %d ブロックより大きいため、安全を図るべくノードをシャットダウンします。</translation>
     </message>
     <message>
         <source>A block chain rewind has been detected that would roll back %d blocks! This is larger than the maximum of %d blocks, and so the node is shutting down for your safety.</source>
-        <translation type="unfinished"></translation>
+        <translation>%d ブロックをロールバックするブロックチェーンの巻き戻しが検出されました! これは最大で %d ブロックより大きいため、安全を図るべくノードをシャットダウンします。</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Koto is probably already running.</source>
-        <translation type="unfinished"></translation>
+        <translation>データディレクトリ %s のロックを取得できません。Kotoは恐らく実行中です。</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー: サポートされていない引数-socksが見つかりました。SOCKS5プロキシだけがサポートされているため、SOCKSのバージョン設定は出来ません。</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation type="unfinished"></translation>
+        <translation>これより小さい手数料(%s/kB)は、中継のためのゼロ手数料とみなされます(デフォルト: %s)</translation>
     </message>
     <message>
         <source>In order to ensure you are adequately protecting your privacy when using Koto, please see &lt;%s&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>あなたがKotoを使用する際、プライバシーを適切に保護するために &lt;%s&gt; をご覧ください。</translation>
     </message>
     <message>
         <source>Insufficient funds, coinbase funds can only be spent after they have been sent to a zaddr</source>
-        <translation type="unfinished"></translation>
+        <translation>不十分な資金、コインベースの資金は、Zアドレスに送った後にのみ費やすことができます</translation>
     </message>
     <message>
         <source>Invalid address for -mineraddress=&lt;addr&gt;: &apos;%s&apos; (must be a transparent address)</source>
-        <translation type="unfinished"></translation>
+        <translation>-mineraddress=&lt;addr&gt;: &apos;%s&apos; は無効なアドレスです(公開アドレスでなければなりません)</translation>
     </message>
     <message>
         <source>Koto was not built with wallet support. Set -mineraddress, or rebuild Koto with wallet support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kotoはウォレットをサポートしていません。-mineraddressを設定するか、ウォレットをサポートするKotoをリビルドしてください。</translation>
     </message>
     <message>
         <source>Koto was not built with wallet support. Set -minetolocalwallet=0 to use -mineraddress, or rebuild Koto with wallet support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kotoはウォレットをサポートしていません。-mineraddressを使用するには、-minetolocalwallet=0を設定するか、ウォレットをサポートするKotoをリビルドしてください。</translation>
     </message>
     <message>
         <source>Maximum total fees (in %s) to use in a single wallet transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation type="unfinished"></translation>
+        <translation>単一のウォレットトランザクションで使用する最大総手数料(%s); これより小さすぎると大量のトランザクションを中止することがあります(デフォルト: %s)</translation>
     </message>
     <message>
         <source>Number of seconds between metrics refreshes (default: %u if running in a console, %u otherwise)</source>
-        <translation type="unfinished"></translation>
+        <translation>メトリックのリフレッシュ間隔(秒、デフォルト:コンソールで実行している場合は %u、それ以外の場合は %u)</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MB.  Please use a higher number.</source>
-        <translation type="unfinished"></translation>
+        <translation>プルーンは最低 %d MBで構成されています。これより高い数字を使用してください。</translation>
     </message>
     <message>
         <source>Reduce storage requirements by pruning (deleting) old blocks. This mode disables wallet support and is incompatible with -txindex. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</source>
-        <translation type="unfinished"></translation>
+        <translation>古いブロックの剪定(削除)を有効にすることでストレージの必要量を削減します。このモードではウォレットのサポートが無効になり、-txindexと互換性がありません。 警告：この設定を元に戻すには、ブロックチェーン全体を再ダウンロードする必要があります。(デフォルト：0 =プルーニングブロックを無効にする、&gt;%u =ブロックファイルに使用するターゲットサイズ、単位:MiB）</translation>
     </message>
     <message>
         <source>Require that mined blocks use a coinbase address in the local wallet (default: %u)</source>
-        <translation type="unfinished"></translation>
+        <translation>マイニングしたブロックにローカルウォレットのコインベースアドレスを使用するよう要求する(デフォルト: %u)</translation>
     </message>
     <message>
         <source>Set the number of blocks after which a transaction that has not been mined will become invalid (default: %u)</source>
-        <translation type="unfinished"></translation>
+        <translation>マイニングされていないトランザクションが無効になるまでのブロック数を設定する(デフォルト: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation type="unfinished"></translation>
+        <translation>有効になっている場合、コイン生成のスレッド数を設定する(-1 = 全てのコア, デフォルト: %d)</translation>
     </message>
     <message>
         <source>Set to 1 for a persistent metrics screen, 0 for sequential metrics output (default: 1 if running in a console, 0 otherwise)</source>
-        <translation type="unfinished"></translation>
+        <translation>永続メトリック画面の場合は1、順次メトリック出力の場合は0に設定します (デフォルト: コンソールが実行中の場合は1, それ以外は0)</translation>
     </message>
     <message>
         <source>Show metrics on stdout (default: 1 if running in a console, 0 otherwise)</source>
-        <translation type="unfinished"></translation>
+        <translation>標準出力されたメトリックを見る (デフォルト: コンソールが実行中の場合は1, それ以外は0)</translation>
     </message>
     <message>
         <source>Specify the Equihash solver to be used if enabled (default: &quot;default&quot;)</source>
-        <translation type="unfinished"></translation>
+        <translation>有効になっている場合に使用するイクイハッシュソルバー(Equihash solver)を指定する(デフォルト: &quot;default&quot;)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with Bloom filters (default: %u)</source>
-        <translation type="unfinished"></translation>
+        <translation>ブロックのフィルタリングとブルームフィルタによるトランザクションのサポート (デフォルト: %u)</translation>
     </message>
     <message>
-        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young.</source>
-        <translation type="unfinished"></translation>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young.</source>
+        <translation>この製品はOpenSSLプロジェクトにより開発されたソフトウェアをOpenSSLツールキット %s として利用しています。また、Eric Young氏により開発された暗号ソフトウェアを使用しています。</translation>
     </message>
     <message>
         <source>This version will be deprecated at block height %d, and will automatically shut down.</source>
-        <translation type="unfinished"></translation>
+        <translation>このバージョンはブロック %d で廃止され、自動的にシャットダウンされます。</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Koto is probably already running.</source>
-        <translation type="unfinished"></translation>
+        <translation>このコンピュータの %s にバインドできません。Kotoは恐らく実行中です。</translation>
     </message>
     <message>
         <source>Unable to rewind the database to a pre-upgrade state. You will need to redownload the blockchain</source>
-        <translation type="unfinished"></translation>
+        <translation>アップグレード前の状態にデータベースを巻き戻すことはできません。ブロックチェーンを再ダウンロードする必要があります</translation>
     </message>
     <message>
         <source>WARNING: abnormally high number of blocks generated, %d blocks received in the last %d hours (%d expected)</source>
-        <translation type="unfinished"></translation>
+        <translation>警告: 異常に高い数のブロックが生成されました。最後の %d時間に受信された %d個のブロック (%d 予定)</translation>
     </message>
     <message>
         <source>WARNING: check your network connection, %d blocks received in the last %d hours (%d expected)</source>
-        <translation type="unfinished"></translation>
+        <translation>警告: ネットワーク接続を確認し、最後の%d時間に受信した%d個のブロック (%d 予定)</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation type="unfinished"></translation>
+        <translation>警告: -maxtxfeeが非常に高く設定されています! この大量の手数料は1回の取引で支払われます。</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished"></translation>
+        <translation>警告: -paytxfeeは非常に高く設定されています! これは、取引を送信する場合に支払う取引手数料です。</translation>
     </message>
     <message>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Koto will not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>警告: あなたのPCの日付と時刻が正しいことを確認して下さい！ もしあなたの時計が正しくなければ Koto は正確に動作しません。</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation type="unfinished"></translation>
+        <translation>警告: wallet.datを読み込めませんでした! すべてのキーは正しく読み取られていますが、トランザクションデータまたはアドレスブックのエントリが見つからないか正しくない可能性があります。</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation type="unfinished"></translation>
+        <translation>警告: wallet.datが破損していましたのでデータを復旧しました! 元の wallet.dat は wallet.{timestamp}.bak として %s に保存されました; 残高やトランザクションが正しくない場合にはバックアップから復元してください。</translation>
     </message>
     <message>
         <source>You&apos;re helping to strengthen the network and contributing to a social good :)</source>
-        <translation type="unfinished"></translation>
+        <translation>あなたはネットワークを強化し、社会的利益に貢献するのを手伝っています</translation>
     </message>
     <message>
         <source>[DEPRECATED FROM OVERWINTER] Set the maximum number of transparent inputs in a transaction that the mempool will accept (default: 0 = no limit applied)</source>
-        <translation type="unfinished"></translation>
+        <translation>[OVERWINTERにて廃止] mempoolが受け入れるトランザクションの公開入力の最大数を設定する (デフォルト: 0 = 制限なし)</translation>
     </message>
     <message>
         <source>%d days, %d hours, %d minutes, %d seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>%d 日、%d 時間、%d 分、%d 秒</translation>
     </message>
     <message>
         <source>%d hours, %d minutes, %d seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>%d 時間、%d 分、%d 秒</translation>
     </message>
     <message>
         <source>%d minutes, %d seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>%d 分、%d 秒</translation>
     </message>
     <message>
         <source>%d seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>%d 秒</translation>
     </message>
     <message>
         <source>(default: 1)</source>
-        <translation type="unfinished"></translation>
+        <translation>(デフォルト: 1)</translation>
     </message>
     <message>
         <source>AMQP 1.0 notification options:</source>
-        <translation type="unfinished"></translation>
+        <translation>AMQP 1.0 通知オプション:</translation>
     </message>
     <message>
         <source>AMQP support requires -experimentalfeatures.</source>
-        <translation type="unfinished"></translation>
+        <translation>AMQPサポートには -experimentalfeatures が必要です。</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands (default: 1)</source>
-        <translation type="unfinished"></translation>
+        <translation>コマンドラインと JSON-RPC コマンドを許可(デフォルト: 1)</translation>
     </message>
     <message>
         <source>Activating best chain...</source>
-        <translation type="unfinished"></translation>
+        <translation>ベストチェーンをアクティベーション...</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation type="unfinished"></translation>
+        <translation>破損したwallet.datから秘密鍵を回復しようとしています...</translation>
     </message>
     <message>
         <source>Block height</source>
-        <translation type="unfinished"></translation>
+        <translation>ブロック高</translation>
     </message>
     <message>
         <source>Can&apos;t run with a wallet in prune mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>プルーンモードでウォレットを使用することはできません。</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>-bind アドレスを解決できません: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>-externalip アドレスを解決できません: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Cannot resolve -whitebind address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>-whitebind アドレスを解決できません: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Coinbase funds can only be sent to a zaddr</source>
-        <translation type="unfinished"></translation>
+        <translation>コインベースの資金はZアドレスにのみ送ることができます</translation>
     </message>
     <message>
         <source>Connections</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copyright (C) 2011-%i Globalboost Developers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copyright (C) 2013-%i The Monacoin Developers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copyright (C) 2015-%i The Zcash Developers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copyright (C) 2017-%i The Koto Developers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Copyright (C) 2017-%i The LitecoinZ Developers</source>
-        <translation type="unfinished"></translation>
+        <translation>接続数</translation>
     </message>
     <message>
         <source>Current tip:   %s, height %d</source>
-        <translation type="unfinished"></translation>
+        <translation>ヒント: %s, 高さ %d</translation>
     </message>
     <message>
         <source>Current tip: %s, height %d, work %s</source>
-        <translation type="unfinished"></translation>
+        <translation>ヒント: %s, 高さ %d、, ワーク %s</translation>
     </message>
     <message>
         <source>Downloading blocks</source>
-        <translation type="unfinished"></translation>
+        <translation>ブロックをダウンロードしています...</translation>
     </message>
     <message>
         <source>Enable use of experimental features</source>
-        <translation type="unfinished"></translation>
+        <translation>実験的機能を有効にする</translation>
     </message>
     <message>
         <source>Error downloading or verifying Koto network parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>Kotoネットワークパラメータのダウンロードまたは確認中にエラーが発生しました</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation type="unfinished"></translation>
+        <translation>wallet.datの読み込みに失敗しました</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation type="unfinished"></translation>
+        <translation>wallet.datの読み込みに失敗しました: ウォレットが壊れています</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Koto</source>
-        <translation type="unfinished"></translation>
+        <translation>wallet.datの読み込みに失敗しました: 新しいバージョンのKotoを使用してください</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
-        <translation type="unfinished"></translation>
+        <translation>エラー: サポートされていない引数 -tor が見つかりました。-onion を使用してください。</translation>
     </message>
     <message>
         <source>Fork point:  %s, height %d</source>
-        <translation type="unfinished"></translation>
+        <translation>フォークポイント: %s、 高さ %d</translation>
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation type="unfinished"></translation>
+        <translation>コイン(ブロック)生成 (デフォルト: %u)</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation type="unfinished"></translation>
+        <translation>外部のblk000??.datファイルからブロックをインポートする</translation>
     </message>
     <message>
         <source>Init message:</source>
-        <translation type="unfinished"></translation>
+        <translation>初期メッセージ:</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. Koto is shutting down.</source>
-        <translation type="unfinished"></translation>
+        <translation>初期化の健全性チェックに失敗しました。Kotoはシャットダウンします。</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>-maxtxfee=&lt;amount&gt;の値が無効です: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>-minrelaytxfee=&lt;amount&gt;の値が無効です: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>-mintxfee=&lt;amount&gt;の値が無効です: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>-paytxfee=&lt;amount&gt;の値が無効です: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Local Hash rate</source>
-        <translation type="unfinished"></translation>
+        <translation>ローカルハッシュレート</translation>
     </message>
     <message>
         <source>Mempool limit on transparent inputs to a transaction cannot be negative</source>
-        <translation type="unfinished"></translation>
+        <translation>トランザクションへの公開された入力のMempool制限は負であってはなりません</translation>
     </message>
     <message>
         <source>Messages:</source>
-        <translation type="unfinished"></translation>
+        <translation>メッセージ:</translation>
     </message>
     <message>
         <source>Metrics Options (only if -daemon and -printtoconsole are not set):</source>
-        <translation type="unfinished"></translation>
+        <translation>メトリックオプション (-daemonと-printtoconsoleが設定されていない場合のみ):</translation>
     </message>
     <message>
         <source>Mining is paused (a JoinSplit may be in progress).</source>
-        <translation type="unfinished"></translation>
+        <translation>マイニングは一時停止中です(JoinSplitが進行中です)</translation>
     </message>
     <message>
         <source>Mining is paused while downloading blocks.</source>
-        <translation type="unfinished"></translation>
+        <translation>ブロックのダウンロード中はマイニングが一時停止されます。</translation>
     </message>
     <message>
         <source>Mining is paused while waiting for connections.</source>
-        <translation type="unfinished"></translation>
+        <translation>接続待ちの時はマイニングが一時停止されます。</translation>
     </message>
     <message>
         <source>Mining options:</source>
-        <translation type="unfinished"></translation>
+        <translation>マイニングオプション:</translation>
     </message>
     <message>
         <source>Network Hash rate</source>
-        <translation type="unfinished"></translation>
+        <translation>ネットワークハッシュレート</translation>
     </message>
     <message>
         <source>New tip:     %s, height %d, work %s</source>
-        <translation type="unfinished"></translation>
+        <translation>ヒント:     %s、 高さ %d、ワーク %s</translation>
     </message>
     <message>
         <source>Orphaned: %d blocks, Immature: %u %s, Mature: %u %s</source>
-        <translation type="unfinished"></translation>
+        <translation>孤立: %d ブロック、未熟: %u %s、成熟: %u %s</translation>
     </message>
     <message>
         <source>Payment disclosure requires -experimentalfeatures.</source>
-        <translation type="unfinished"></translation>
+        <translation>支払いの開示には -experimentalfeatures が必要です。</translation>
     </message>
     <message>
         <source>Please help, human!</source>
-        <translation type="unfinished"></translation>
+        <translation>助けてください、人間!</translation>
     </message>
     <message>
         <source>Press Ctrl+C to exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Cを入力すると終了します</translation>
     </message>
     <message>
         <source>RPC method z_mergetoaddress requires -experimentalfeatures.</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCメソッドz_mergetoaddressには -experimentalfeatures が必要です。</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>起動時に現在のblk000??.datファイルからブロックチェーンインデックスを再構築する</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation type="unfinished"></translation>
+        <translation>P2Pネットワークアラートを受信して表示する (デフォルト: %u)</translation>
     </message>
     <message>
         <source>Reorganization details</source>
-        <translation type="unfinished"></translation>
+        <translation>再編成の詳細</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation type="unfinished"></translation>
+        <translation>ウォレットトランザクションが欠落している場合、ブロックチェーンを再スキャンします</translation>
     </message>
     <message>
         <source>Rewind details</source>
-        <translation type="unfinished"></translation>
+        <translation>巻き戻しの詳細</translation>
     </message>
     <message>
         <source>Rewinding blocks if needed...</source>
-        <translation type="unfinished"></translation>
+        <translation>必要に応じてブロックを巻き戻す...</translation>
     </message>
     <message>
         <source>Rewinding to:  %s, height %d</source>
-        <translation type="unfinished"></translation>
+        <translation>巻き戻し中: %s, 高さ %d</translation>
     </message>
     <message>
         <source>Send mined coins to a specific single address</source>
-        <translation type="unfinished"></translation>
+        <translation>特定の一つのアドレスに採掘されたコインを送る</translation>
     </message>
     <message>
         <source>Set &apos;showmetrics=0&apos; to hide</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;showmetrics=0&apos;を非表示にする</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
-        <translation type="unfinished"></translation>
+        <translation>最小ブロックサイズをバイト単位で設定する(デフォルト: %u)</translation>
     </message>
     <message>
         <source>Since starting this node %s ago:</source>
-        <translation type="unfinished"></translation>
+        <translation>%s分前にこのノードを起動して以来:</translation>
     </message>
     <message>
         <source>Specify directory to be used when exporting data</source>
-        <translation type="unfinished"></translation>
+        <translation>データのエクスポート時に使用するディレクトリを指定する</translation>
     </message>
     <message>
         <source>Thank you for running a Koto node!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kotoノードを実行していただきありがとうございます！</translation>
     </message>
     <message>
         <source>This help message</source>
-        <translation type="unfinished"></translation>
+        <translation>このヘルプメッセージ</translation>
     </message>
     <message>
         <source>This version has been deprecated as of block height %d.</source>
-        <translation type="unfinished"></translation>
+        <translation>このバージョンは、%d ブロックで廃止されました。</translation>
     </message>
     <message>
         <source>To enable mining, add &apos;gen=1&apos; to your koto.conf and restart.</source>
-        <translation type="unfinished"></translation>
+        <translation>マイニングを有効にするには、koto.confに&apos;gen=1&apos;を追加して再起動します。</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation type="unfinished"></translation>
+        <translation>ウォレットを最新の形式にアップグレードする</translation>
     </message>
     <message>
         <source>Use the test network</source>
-        <translation type="unfinished"></translation>
+        <translation>テストネットを使用する</translation>
     </message>
     <message>
         <source>Wallet encryption requires -experimentalfeatures.</source>
-        <translation type="unfinished"></translation>
+        <translation>ウォレットの暗号化には -experimentalfeatures が必要です。</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Koto to complete</source>
-        <translation type="unfinished"></translation>
+        <translation>ウォレットを書き直す必要があります: 完了するためにKotoを再起動します</translation>
     </message>
     <message>
         <source>Warning: This version is obsolete; upgrade required!</source>
-        <translation type="unfinished"></translation>
+        <translation>警告: このバージョンは廃止されました。アップグレードが必要です!</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation type="unfinished"></translation>
+        <translation>警告: サポートされていない引数-benchmarkは無視されました、-debug=benchを使用してください。</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation type="unfinished"></translation>
+        <translation>警告:サポートされていない引数-debugnetは無視されました、-debug=netを使用してください。 </translation>
     </message>
     <message>
         <source>You are currently not mining.</source>
-        <translation type="unfinished"></translation>
+        <translation>現在マイニングしていません。</translation>
     </message>
     <message>
         <source>You are mining with the %s solver on %d threads.</source>
-        <translation type="unfinished"></translation>
+        <translation>%sスレッドで %sソルバーでマイニングしています。</translation>
     </message>
     <message>
         <source>You have mined %d blocks!</source>
-        <translation type="unfinished"></translation>
+        <translation>%dブロックマイニングしました!</translation>
     </message>
     <message>
         <source>You have validated %d transactions!</source>
-        <translation type="unfinished"></translation>
+        <translation>%dトランザクションを検証しました!</translation>
     </message>
     <message>
         <source>You have validated a transaction!</source>
-        <translation type="unfinished"></translation>
+        <translation>トランザクションを検証しました!</translation>
     </message>
     <message>
         <source>You have validated no transactions.</source>
-        <translation type="unfinished"></translation>
+        <translation>トランザクションを検証していません。</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation type="unfinished"></translation>
+        <translation>データベースを再構築する必要があります、-reindexか-txindexを使用してください</translation>
     </message>
     <message>
-        <source>You should upgrade to the latest version of Zcash.</source>
-        <translation type="unfinished"></translation>
+        <source>You should upgrade to the latest version of Koto.</source>
+        <translation>Kotoの最新バージョンにアップグレードする必要があります。</translation>
     </message>
     <message>
         <source>nExpiryHeight must be less than TX_EXPIRY_HEIGHT_THRESHOLD.</source>
-        <translation type="unfinished"></translation>
+        <translation>nExpiryHeightはTX_EXPIRY_HEIGHT_THRESHOLDより小さくなければなりません。</translation>
     </message>
     <message>
         <source>on startup</source>
-        <translation type="unfinished"></translation>
+        <translation>始めるとき</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"></translation>
+        <translation>wallet.dat が破損し、復旧に失敗しました</translation>
     </message>
 </context>
 </TS>

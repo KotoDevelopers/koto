@@ -172,7 +172,7 @@
     <item row="2" column="0">
      <widget class="QLabel" name="memoLabel">
       <property name="text">
-       <string>M&amp;emo</string>
+       <string>M&amp;emo:</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>

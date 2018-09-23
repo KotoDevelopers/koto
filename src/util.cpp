@@ -463,7 +463,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\Koto
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\Koto
     // Mac: ~/Library/Application Support/Koto
-    // Unix: ~/.zcash
+    // Unix: ~/.koto
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "Koto";
@@ -923,19 +923,23 @@ std::string PrivacyInfo()
 
 std::string LicenseInfo()
 {
-    return "\n" +
-           FormatParagraph(strprintf(_("Copyright (C) 2009-%i The Bitcoin Core Developers"), COPYRIGHT_YEAR)) + "\n" +
-           FormatParagraph(strprintf(_("Copyright (C) 2015-%i The Zcash Developers"), COPYRIGHT_YEAR)) + "\n" +
-           FormatParagraph(strprintf(_("Copyright (C) 2011-%i Globalboost Developers"), COPYRIGHT_YEAR)) + "\n" +
-           FormatParagraph(strprintf(_("Copyright (C) 2013-%i The Monacoin Developers"), COPYRIGHT_YEAR)) + "\n" +
-           FormatParagraph(strprintf(_("Copyright (C) 2017-%i The LitecoinZ Developers"), COPYRIGHT_YEAR)) + "\n" +
-           FormatParagraph(strprintf(_("Copyright (C) 2017-%i The Koto Developers"), COPYRIGHT_YEAR)) + "\n" +
+    const std::string URL_SOURCE_CODE = "<https://github.com/KotoDevelopers/koto>";
+    const std::string URL_WEBSITE = "<https://ko-to.org>";
+
+    return CopyrightHolders("Copyright (C) %i-%i") + "\n" +
            "\n" +
-           FormatParagraph(_("This is experimental software.")) + "\n" +
+           strprintf(_("Please contribute if you find %s useful. "
+                       "Visit %s for further information about the software."),
+               PACKAGE_NAME, URL_WEBSITE) +
            "\n" +
-           FormatParagraph(_("Distributed under the MIT software license, see the accompanying file COPYING or <http://www.opensource.org/licenses/mit-license.php>.")) + "\n" +
+           strprintf(_("The source code is available from %s."),
+               URL_SOURCE_CODE) +
            "\n" +
-           FormatParagraph(_("This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written by Eric Young.")) +
+           "\n" +
+           _("This is experimental software.") + "\n" +
+           strprintf(_("Distributed under the MIT software license, see the accompanying file %s or %s."), "COPYING", "<https://opensource.org/licenses/MIT>") + "\n" +
+           "\n" +
+           strprintf(_("This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young."), "<https://www.openssl.org>") +
            "\n";
 }
 
@@ -944,10 +948,15 @@ int GetNumCores()
     return boost::thread::physical_concurrency();
 }
 
-std::string CopyrightHolders()
+std::string CopyrightHolders(const std::string& strPrefix)
 {
-    std::string strCopyrightHolders = _(COPYRIGHT_HOLDERS);
-    if (strCopyrightHolders.find("%s") == strCopyrightHolders.npos)
-	return strCopyrightHolders;
-    return strprintf(strCopyrightHolders, _(PACKAGE_NAME));
+    unsigned short nCopyrightYear = boost::posix_time::second_clock::local_time().date().year();
+    std::string strCopyrightHolders;
+    strCopyrightHolders += "\n" + strprintf(strPrefix, 2009, nCopyrightYear) + " The Bitcoin Core developers";
+    strCopyrightHolders += "\n" + strprintf(strPrefix, 2011, nCopyrightYear) + " Globalboost Developers";
+    strCopyrightHolders += "\n" + strprintf(strPrefix, 2013, nCopyrightYear) + " The Monacoin Developers";
+    strCopyrightHolders += "\n" + strprintf(strPrefix, 2015, nCopyrightYear) + " The Zcash Developers";
+    strCopyrightHolders += "\n" + strprintf(strPrefix, 2017, nCopyrightYear) + " The LitecoinZ Developers";
+    strCopyrightHolders += "\n" + strprintf(strPrefix, 2017, nCopyrightYear) + " The Koto Developers";
+    return strCopyrightHolders;
 }

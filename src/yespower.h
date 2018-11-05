@@ -37,6 +37,9 @@
 extern "C" {
 #endif
 
+/**
+ * yespower_hash() is a Koto addition, not part of yespower proper.
+ */
 extern void yespower_hash(const char *input, size_t inputlen, char *output);
 
 /**

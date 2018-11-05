@@ -1,5 +1,5 @@
 /*-
- * Copyright 2013-2018 Alexander Peslyak
+ * Copyright (c) 2018 The Koto developers
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -21,6 +21,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdint.h>
+#include <stdlib.h> /* for abort() */
 
 #include "yespower.h"
 
@@ -33,5 +34,6 @@ void yespower_hash(const char *input, size_t inputlen, char *output)
 		.pers = (const uint8_t *)input,
 		.perslen = inputlen
 	};
-	yespower_tls((unsigned char *)input, inputlen, &params, (yespower_binary_t *)output);
+	if (yespower_tls((unsigned char *)input, inputlen, &params, (yespower_binary_t *)output))
+		abort();
 }

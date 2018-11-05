@@ -496,8 +496,7 @@ typedef struct {
 	((uint64_t)(uint32_t)_mm_cvtsi128_si32(HI32(X)) << 32))
 #endif
 
-//#if defined(__x86_64__) && (defined(__AVX__) || !defined(__GNUC__))
-#if 0 /* XXX The follwoing code is slower XXX */
+#if defined(__x86_64__) && (defined(__AVX__) || !defined(__GNUC__))
 /* 64-bit with AVX */
 /* Force use of 64-bit AND instead of two 32-bit ANDs */
 #undef DECL_SMASK2REG

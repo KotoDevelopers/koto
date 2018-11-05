@@ -1,5 +1,5 @@
 /*-
- * Copyright 2013-2018 Alexander Peslyak
+ * Copyright (c) 2018 The Koto developers
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without

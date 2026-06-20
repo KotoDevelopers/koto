@@ -2562,7 +2562,18 @@ bool CheckTxInputs(const CTransaction& tx, CValidationState& state, const CCoins
                     consensusParams.fCoinbaseMustBeShielded &&
                     !tx.vout.empty()) {
                     const CTxOut& output =  coins->vout[prevout.n];
-                    if (output.scriptPubKey != ::Params().GetFoundersRewardScriptAtHeight(coins->nHeight)) {
+                    // Only the founders-reward coinbase output is allowed to be
+                    // spent to transparent outputs. Beyond the last founders-reward
+                    // block there is no founders reward, so any such coinbase must
+                    // be shielded. Crucially, GetFoundersRewardScriptAtHeight()
+                    // asserts that the height is within the founders-reward period,
+                    // so calling it for a post-period coinbase height aborts the
+                    // node (SIGABRT) — guard the height before calling it.
+                    bool isFoundersRewardScript =
+                        coins->nHeight > 0 &&
+                        coins->nHeight <= consensusParams.GetLastFoundersRewardBlockHeight(coins->nHeight) &&
+                        output.scriptPubKey == ::Params().GetFoundersRewardScriptAtHeight(coins->nHeight);
+                    if (!isFoundersRewardScript) {
                         return state.Invalid(
                         error("CheckInputs(): tried to spend coinbase with transparent outputs"),
                         REJECT_INVALID, "bad-txns-coinbase-spend-has-transparent-outputs");
